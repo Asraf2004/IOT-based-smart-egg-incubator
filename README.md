@@ -19,7 +19,7 @@ and Blynk to monitor and control the incubator remotely.
 ![WhatsApp Image 2024-07-12 at 00 32 53](https://github.com/user-attachments/assets/5daa0f09-8b57-4b34-807a-41da7f3a0e37)
 
 
-# Installation:
+# Installation
 
   **1.Hardware Setup:**
   - Connect the DHT11 sensor to the ESP32 (DHTPIN to GPIO 26).
@@ -64,12 +64,18 @@ and Blynk to monitor and control the incubator remotely.
      - Power on the ESP32.
      - Monitor the temperature and humidity on the LCD and the Blynk app.
      - The relay and fan will be controlled automatically based on the temperature readings.
+
+# Key Functions
+
+   - **setup()** Initializes serial communication, Blynk, LCD, DHT sensor, and sets pin modes for the relay and fan.
+   - **loop()** Continuously reads temperature and humidity, updates the LCD and Blynk app, and controls the relay and fan based on the temperature.
+   - **sendSensorData()** Sends sensor data to the Blynk app every second.
+
+# Bynk Output 
+ ![WhatsApp Image 2024-05-14 at 21 19 13](https://github.com/user-attachments/assets/266ea567-90ed-4cf2-8989-81ea7fd41290)
+
+
+ 
     
-     # Key Functions:
-
-     - **setup()** Initializes serial communication, Blynk, LCD, DHT sensor, and sets pin modes for the relay and fan.
-     - **loop()** Continuously reads temperature and humidity, updates the LCD and Blynk app, and controls the relay and fan based on the temperature.
-     - **sendSensorData()** Sends sensor data to the Blynk app every second.
-
      
    
