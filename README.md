@@ -72,7 +72,9 @@ and Blynk to monitor and control the incubator remotely.
    - **sendSensorData()** Sends sensor data to the Blynk app every second.
 
 # Bynk Output 
- ![WhatsApp Image 2024-05-14 at 21 19 13](https://github.com/user-attachments/assets/266ea567-90ed-4cf2-8989-81ea7fd41290)
+
+![WhatsApp Image 2024-05-14 at 21 19 13 (1)](https://github.com/user-attachments/assets/6cb4a727-6dfd-4f94-9816-caeb65b0916c)
+
 
 
  
